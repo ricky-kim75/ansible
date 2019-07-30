@@ -35,7 +35,3 @@
   - name: Expiring password for user "{{ add_user_name }}"
 
     shell: chage -d 0 "{{ add_user_name }}"
-
-
-
-출처: https://urban1980.tistory.com/50?category=681899 [::: System Engineer 대백과사전 :::]
